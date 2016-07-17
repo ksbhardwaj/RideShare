@@ -1,0 +1,42 @@
+body {
+		font-family:arial,helvetica,sans-serif;
+		font-size:12px;
+	}
+	
+	#wrapper {
+		width:734px;
+		margin:0px auto;
+		border:1px solid #bbb;
+		padding:10px;
+	}
+	
+	#header {
+		font-size:20px;
+		border:1px solid #bbb;
+		height:45px;
+		padding:10px;
+	}
+	#content {
+		margin-top:10px;
+		padding-bottom:10px;
+	}
+	#content div {
+		padding:10px;
+		border:1px solid #bbb;
+		float:left;
+	}
+	#content-left {
+		width:110px;
+	}
+	#content-main {
+		margin-left:10px;
+		width:110px;
+	}
+	#content-right {
+		margin-left:10px;
+		width:110px;
+	}
+	#bottom {
+		clear:both;
+		text-align:right;
+	}

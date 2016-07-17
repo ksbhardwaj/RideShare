@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+        padding-bottom: 40px;
+        background-color: #f7f7f7;
+      }
+.container
+{
+	margin-top:80px;
+}
+h2
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#00a2d1;
+}
+.form-container
+{
+	width:500px;
+	margin:0 auto;
+	background:#fff;
+	padding: 25px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+	border-radius:3px;
+}
+button
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;
+}
+label
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:.00a9d1;
+}
+a
+{
+	text-decoration:none;
+}
+
+/* home page style */
+
+.header
+{
+	text-align:center;
+	font-size:25px;
+	color:#fff;
+	background:#00a2d1;
+	height:60px;
+	width:100%;
+}
+.header a
+{
+	color:#f9f9f9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:25px;
+	text-decoration:none;
+	position:relative;
+	top:15px;
+}
+.header .left
+{
+	float:left;
+	position:relative;
+	left:150px;
+}
+.header .right
+{
+	float:right;
+	position:relative;
+	right:150px;
+}
+.content
+{
+	margin:0 auto;
+	margin-top:20px;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#00a2d1;
+}
+.content p
+{
+	font-size:30px;
+	color:#004567;
+	width:800px;
+	margin:0 auto;
+}
+
+
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
